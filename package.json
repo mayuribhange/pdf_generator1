@@ -1,0 +1,28 @@
+{
+  "name": "pdf_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayuribhange/pdf_generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayuribhange/pdf_generator/issues"
+  },
+  "homepage": "https://github.com/mayuribhange/pdf_generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.0",
+    "pdfkit": "^0.15.0"
+  }
+}
